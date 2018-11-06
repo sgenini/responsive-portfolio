@@ -10,6 +10,13 @@ body {
   background: url("../images/light-grey-terrazzo.png");
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -62,7 +69,7 @@ h3 {
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
-  overflow: auto;
+  /* overflow: auto; */
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
@@ -73,7 +80,7 @@ h3 {
   width: 250px;
   height: 90px;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 100;
   line-height: 90px;
   color: #ffffff;
@@ -115,6 +122,10 @@ footer {
   border-top: 8px solid #4aaaa5;
   height: 50px;
   padding-bottom: 30px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: static;
 }
 
 h3, h2 {
